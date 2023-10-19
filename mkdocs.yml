@@ -1,6 +1,6 @@
 site_name: Tech Community Talk - Material for MkDocs
-#theme:
-#  name: material
+theme:
+  name: material
 
 #  features:
 #    # tabs
