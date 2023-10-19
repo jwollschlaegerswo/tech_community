@@ -1,3 +1,3 @@
-# OBS
+# Observability
 
-https://charlie-wolle.github.io/observability/
+[GitHub Page OBS](https://charlie-wolle.github.io/observability/)

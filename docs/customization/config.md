@@ -36,11 +36,11 @@ theme:
 ```
 ## 2 Navigation
 
-### Add a `nav` section to the configuration file `mkdocs.yml`:
+Add a `nav` section to the configuration file `mkdocs.yml`:
 
 ```yaml
 nav:
-  - Home: config.md
+  - Home: index.md
   - Getting started:
       - installation/setup.md
   - Customization:

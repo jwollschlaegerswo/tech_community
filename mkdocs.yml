@@ -1,8 +1,7 @@
 site_name: Tech Community Talk - Material for MkDocs
-theme:
-  name: material
-  features:
-    - content.code.copy
+#theme:
+#  name: material
+
 #  features:
 #    # tabs
 #    - navigation.tabs
@@ -10,6 +9,7 @@ theme:
 #    - navigation.tabs.sticky
 #    - toc.integrate
 #    - toc.follow
+#    - content.code.copy
 #
 #  palette:
 #  # Palette toggle for light mode
@@ -24,7 +24,7 @@ theme:
 #      name: Switch to light mode
 #
 #nav:
-#  - Home: config.md
+#  - Home: index.md
 #  - Getting started:
 #    - installation/setup.md
 #  - Customization:
@@ -35,12 +35,6 @@ theme:
 #  - Example Project:
 #    - example_project/observability_docs.md
 
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra:
   consent:

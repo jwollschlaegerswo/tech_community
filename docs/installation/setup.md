@@ -2,21 +2,22 @@
 
 ## Installation
 
-### Pull docker image
+Pull docker image
+
 ```docker pull squidfunk/mkdocs-material```
 
-### Initialization
+## Initialization
 
-Bootstrap your project documentation using the mkdocs executable.
+Bootstrap your project documentation using the mkdocs executable:
 ```
 mkdocs new .
 ```
-Running Material for MkDocs from within Docker:
+or running Material for MkDocs with Docker:
 ```
 docker run --rm -it -v "%cd%":/docs squidfunk/mkdocs-material new .
 ```
 
-### Startup (live preview server)
+## Startup (live preview server)
 ```
 mkdocs serve
 ```
