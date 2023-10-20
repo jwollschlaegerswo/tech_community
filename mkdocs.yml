@@ -1,6 +1,7 @@
 site_name: Tech Community Talk - Material for MkDocs
 theme:
   name: material
+#  logo: assets/logo.jpg
 
 #  features:
 #    # tabs
@@ -32,8 +33,6 @@ theme:
 #    - customization/features.md
 #  - Publishing:
 #    - publishing/github_pages.md
-#  - Example Project:
-#    - example_project/observability_docs.md
 
 
 extra:
@@ -44,3 +43,8 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+
+#markdown_extensions:
+#  - pymdownx.superfences
+#  - pymdownx.tabbed:
+#      alternate_style: true

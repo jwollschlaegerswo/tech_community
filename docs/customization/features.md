@@ -28,13 +28,6 @@ markdown_extensions:
 
 ## 3 Code features
 
-### Annotations
-```yaml
-theme:
-  features:
-    - content.code.annotate
-```
-
 ### Copy button
 ```yaml
 theme:

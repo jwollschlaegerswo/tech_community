@@ -8,5 +8,4 @@ by Jan Wollschläger
 ### 2. Installation, Initialization and Startup
 ### 3. Configuration and Customization
 ### 4. Publishing with GitHub Pages
-### 5. Example Project - Observability Docs
-### 6. Q&A
+### 5. Q&A

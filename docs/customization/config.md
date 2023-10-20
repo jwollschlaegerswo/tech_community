@@ -14,7 +14,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.tracking
 ```
 
 ### Integrated TOC
@@ -24,7 +23,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.tracking
     - toc.integrate
     - toc.follow
 ```
@@ -48,8 +46,6 @@ nav:
       - customization/features.md
   - Publishing:
       - publishing/github_pages.md
-  - Example Project:
-      - example_project/observability_docs.md
 ```
 
 
