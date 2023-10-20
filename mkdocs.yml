@@ -1,38 +1,38 @@
 site_name: Tech Community Talk - Material for MkDocs
 theme:
   name: material
-#  logo: assets/logo.jpg
+  logo: assets/logo.jpg
 
-#  features:
-#    # tabs
-#    - navigation.tabs
-#    # sticky behaviour
-#    - navigation.tabs.sticky
-#    - toc.integrate
-#    - toc.follow
-#    - content.code.copy
-#
-#  palette:
-#  # Palette toggle for light mode
-#  - scheme: default
-#    toggle:
-#      icon: material/brightness-7
-#      name: Switch to dark mode
-#  # Palette toggle for dark mode
-#  - scheme: slate
-#    toggle:
-#      icon: material/brightness-4
-#      name: Switch to light mode
-#
-#nav:
-#  - Home: index.md
-#  - Getting started:
-#    - installation/setup.md
-#  - Customization:
-#    - customization/config.md
-#    - customization/features.md
-#  - Publishing:
-#    - publishing/github_pages.md
+  features:
+    # tabs
+    - navigation.tabs
+    # sticky behaviour
+    - navigation.tabs.sticky
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+
+  palette:
+  # Palette toggle for light mode
+  - scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  # Palette toggle for dark mode
+  - scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - installation/setup.md
+  - Customization:
+    - customization/config.md
+    - customization/features.md
+  - Publishing:
+    - publishing/github_pages.md
 
 
 extra:
@@ -44,7 +44,7 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 
-#markdown_extensions:
-#  - pymdownx.superfences
-#  - pymdownx.tabbed:
-#      alternate_style: true
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
